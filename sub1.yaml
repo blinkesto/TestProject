@@ -2,4 +2,4 @@
   tasks:
     - name: Echo
       debug: 
-        msg: "Hello"
+        msg: "{{ var }}"
