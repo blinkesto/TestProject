@@ -1,4 +1,5 @@
 - hosts: all
   tasks:
     - name: Echo
-      debug: "Hello"
+      debug: 
+        msg: "Hello"
